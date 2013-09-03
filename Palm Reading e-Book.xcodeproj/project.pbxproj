@@ -1,0 +1,325 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C5FAAFF217D609CB000D7BB1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5FAAFF117D609CB000D7BB1 /* UIKit.framework */; };
+		C5FAAFF417D609CB000D7BB1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5FAAFF317D609CB000D7BB1 /* Foundation.framework */; };
+		C5FAAFF617D609CB000D7BB1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5FAAFF517D609CB000D7BB1 /* CoreGraphics.framework */; };
+		C5FAAFFC17D609CB000D7BB1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C5FAAFFA17D609CB000D7BB1 /* InfoPlist.strings */; };
+		C5FAAFFE17D609CB000D7BB1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C5FAAFFD17D609CB000D7BB1 /* main.m */; };
+		C5FAB00217D609CB000D7BB1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C5FAB00117D609CB000D7BB1 /* AppDelegate.m */; };
+		C5FAB00417D609CB000D7BB1 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C5FAB00317D609CB000D7BB1 /* Default.png */; };
+		C5FAB00617D609CB000D7BB1 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5FAB00517D609CB000D7BB1 /* Default@2x.png */; };
+		C5FAB00817D609CB000D7BB1 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5FAB00717D609CB000D7BB1 /* Default-568h@2x.png */; };
+		C5FAB00B17D609CB000D7BB1 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5FAB00917D609CB000D7BB1 /* MainStoryboard_iPhone.storyboard */; };
+		C5FAB00E17D609CB000D7BB1 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5FAB00C17D609CB000D7BB1 /* MainStoryboard_iPad.storyboard */; };
+		C5FAB01117D609CB000D7BB1 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5FAB01017D609CB000D7BB1 /* MasterViewController.m */; };
+		C5FAB01417D609CB000D7BB1 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5FAB01317D609CB000D7BB1 /* DetailViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C5FAAFEE17D609CB000D7BB1 /* Palm Reading e-Book.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Palm Reading e-Book.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5FAAFF117D609CB000D7BB1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C5FAAFF317D609CB000D7BB1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C5FAAFF517D609CB000D7BB1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C5FAAFF917D609CB000D7BB1 /* Palm Reading e-Book-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Palm Reading e-Book-Info.plist"; sourceTree = "<group>"; };
+		C5FAAFFB17D609CB000D7BB1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C5FAAFFD17D609CB000D7BB1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C5FAAFFF17D609CB000D7BB1 /* Palm Reading e-Book-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Palm Reading e-Book-Prefix.pch"; sourceTree = "<group>"; };
+		C5FAB00017D609CB000D7BB1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C5FAB00117D609CB000D7BB1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C5FAB00317D609CB000D7BB1 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		C5FAB00517D609CB000D7BB1 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		C5FAB00717D609CB000D7BB1 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		C5FAB00A17D609CB000D7BB1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		C5FAB00D17D609CB000D7BB1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		C5FAB00F17D609CB000D7BB1 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		C5FAB01017D609CB000D7BB1 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		C5FAB01217D609CB000D7BB1 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		C5FAB01317D609CB000D7BB1 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C5FAAFEB17D609CB000D7BB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5FAAFF217D609CB000D7BB1 /* UIKit.framework in Frameworks */,
+				C5FAAFF417D609CB000D7BB1 /* Foundation.framework in Frameworks */,
+				C5FAAFF617D609CB000D7BB1 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C5FAAFE517D609CB000D7BB1 = {
+			isa = PBXGroup;
+			children = (
+				C5FAAFF717D609CB000D7BB1 /* Palm Reading e-Book */,
+				C5FAAFF017D609CB000D7BB1 /* Frameworks */,
+				C5FAAFEF17D609CB000D7BB1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C5FAAFEF17D609CB000D7BB1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C5FAAFEE17D609CB000D7BB1 /* Palm Reading e-Book.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C5FAAFF017D609CB000D7BB1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C5FAAFF117D609CB000D7BB1 /* UIKit.framework */,
+				C5FAAFF317D609CB000D7BB1 /* Foundation.framework */,
+				C5FAAFF517D609CB000D7BB1 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C5FAAFF717D609CB000D7BB1 /* Palm Reading e-Book */ = {
+			isa = PBXGroup;
+			children = (
+				C5FAB00017D609CB000D7BB1 /* AppDelegate.h */,
+				C5FAB00117D609CB000D7BB1 /* AppDelegate.m */,
+				C5FAB00917D609CB000D7BB1 /* MainStoryboard_iPhone.storyboard */,
+				C5FAB00C17D609CB000D7BB1 /* MainStoryboard_iPad.storyboard */,
+				C5FAB00F17D609CB000D7BB1 /* MasterViewController.h */,
+				C5FAB01017D609CB000D7BB1 /* MasterViewController.m */,
+				C5FAB01217D609CB000D7BB1 /* DetailViewController.h */,
+				C5FAB01317D609CB000D7BB1 /* DetailViewController.m */,
+				C5FAAFF817D609CB000D7BB1 /* Supporting Files */,
+			);
+			path = "Palm Reading e-Book";
+			sourceTree = "<group>";
+		};
+		C5FAAFF817D609CB000D7BB1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C5FAAFF917D609CB000D7BB1 /* Palm Reading e-Book-Info.plist */,
+				C5FAAFFA17D609CB000D7BB1 /* InfoPlist.strings */,
+				C5FAAFFD17D609CB000D7BB1 /* main.m */,
+				C5FAAFFF17D609CB000D7BB1 /* Palm Reading e-Book-Prefix.pch */,
+				C5FAB00317D609CB000D7BB1 /* Default.png */,
+				C5FAB00517D609CB000D7BB1 /* Default@2x.png */,
+				C5FAB00717D609CB000D7BB1 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C5FAAFED17D609CB000D7BB1 /* Palm Reading e-Book */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5FAB01717D609CB000D7BB1 /* Build configuration list for PBXNativeTarget "Palm Reading e-Book" */;
+			buildPhases = (
+				C5FAAFEA17D609CB000D7BB1 /* Sources */,
+				C5FAAFEB17D609CB000D7BB1 /* Frameworks */,
+				C5FAAFEC17D609CB000D7BB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Palm Reading e-Book";
+			productName = "Palm Reading e-Book";
+			productReference = C5FAAFEE17D609CB000D7BB1 /* Palm Reading e-Book.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C5FAAFE617D609CB000D7BB1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Shirley Cheung";
+			};
+			buildConfigurationList = C5FAAFE917D609CB000D7BB1 /* Build configuration list for PBXProject "Palm Reading e-Book" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C5FAAFE517D609CB000D7BB1;
+			productRefGroup = C5FAAFEF17D609CB000D7BB1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C5FAAFED17D609CB000D7BB1 /* Palm Reading e-Book */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C5FAAFEC17D609CB000D7BB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5FAAFFC17D609CB000D7BB1 /* InfoPlist.strings in Resources */,
+				C5FAB00417D609CB000D7BB1 /* Default.png in Resources */,
+				C5FAB00617D609CB000D7BB1 /* Default@2x.png in Resources */,
+				C5FAB00817D609CB000D7BB1 /* Default-568h@2x.png in Resources */,
+				C5FAB00B17D609CB000D7BB1 /* MainStoryboard_iPhone.storyboard in Resources */,
+				C5FAB00E17D609CB000D7BB1 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C5FAAFEA17D609CB000D7BB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5FAAFFE17D609CB000D7BB1 /* main.m in Sources */,
+				C5FAB00217D609CB000D7BB1 /* AppDelegate.m in Sources */,
+				C5FAB01117D609CB000D7BB1 /* MasterViewController.m in Sources */,
+				C5FAB01417D609CB000D7BB1 /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C5FAAFFA17D609CB000D7BB1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C5FAAFFB17D609CB000D7BB1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C5FAB00917D609CB000D7BB1 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C5FAB00A17D609CB000D7BB1 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		C5FAB00C17D609CB000D7BB1 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C5FAB00D17D609CB000D7BB1 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C5FAB01517D609CB000D7BB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C5FAB01617D609CB000D7BB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C5FAB01817D609CB000D7BB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Palm Reading e-Book/Palm Reading e-Book-Prefix.pch";
+				INFOPLIST_FILE = "Palm Reading e-Book/Palm Reading e-Book-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C5FAB01917D609CB000D7BB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Palm Reading e-Book/Palm Reading e-Book-Prefix.pch";
+				INFOPLIST_FILE = "Palm Reading e-Book/Palm Reading e-Book-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C5FAAFE917D609CB000D7BB1 /* Build configuration list for PBXProject "Palm Reading e-Book" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5FAB01517D609CB000D7BB1 /* Debug */,
+				C5FAB01617D609CB000D7BB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5FAB01717D609CB000D7BB1 /* Build configuration list for PBXNativeTarget "Palm Reading e-Book" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5FAB01817D609CB000D7BB1 /* Debug */,
+				C5FAB01917D609CB000D7BB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C5FAAFE617D609CB000D7BB1 /* Project object */;
+}
